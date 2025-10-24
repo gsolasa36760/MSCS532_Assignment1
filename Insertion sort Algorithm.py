@@ -12,7 +12,7 @@ def insertion_sort(arr):
         
         # Shifting elements of arr[0..i-1] that are smaller than key to one position ahead
         # This creates space for the key element
-        while j >= 0 and arr[j] < key:  # Change '<' to '>' for decreasing order
+        while j >= 0 and arr[j] < key:  
             arr[j + 1] = arr[j]
             j -= 1
         
@@ -21,7 +21,7 @@ def insertion_sort(arr):
 
     return arr
 
-# Example usage
+# user input
 if __name__ == "__main__":
     # Taking user input for the array
     user_input = input("Enter numbers separated by spaces: ")
@@ -34,3 +34,5 @@ if __name__ == "__main__":
     
     # Printing the sorted array
     print("Sorted array in decreasing order:", sorted_array)
+
+    print("hello world")
