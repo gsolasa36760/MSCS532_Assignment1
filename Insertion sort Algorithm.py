@@ -35,4 +35,4 @@ if __name__ == "__main__":
     # Printing the sorted array
     print("Sorted array in decreasing order:", sorted_array)
 
-    print("hello world")
+    
